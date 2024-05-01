@@ -11,4 +11,7 @@ fun main(){
     number3 = 7L
     println(number3)
 
+    var number4: Long? = 1000L
+    number4 = null
+
 }
