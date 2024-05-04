@@ -1,6 +1,5 @@
 package com.kotlin.kotlinboot.service
 
-import com.kotlin.kotlinboot.entity.Person
 import java.lang.IllegalArgumentException
 
 fun main(){
@@ -24,10 +23,6 @@ fun main(){
     println(startWith5("ABC"))
     println(startWith6("ABC"))
     println(startWith7("ABC"))
-
-
-    //플랫폼 타입
-    val person = Person("공부하는 개발자")
 
 
 }
