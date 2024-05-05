@@ -34,4 +34,14 @@
 - 단 Kotlin에서는 Expression으로 취급된다. (때문에 코틀린에서는 삼항연산자가 없다.)
 - 자바에서의 swith는 코틀린에서 when으로 대체되었다 (when 은 더 강력한 기능을 갖는다.)
   
-  
+### Lec 06 . 코틀린에서 반복문을 다루는 방법 
+- for each 문에서 Java는 : Kotlin은 in을 사용한다.
+- 전통적인 for 문에서 Kotlin은 등차수열과 in을 사용한다.
+- while문은 놀랍도록 동일하다.
+    
+### Lec 07 . 코틀린에서 예외를 다루는 방법 
+- try catch finally 구문은 문법적으로 완전히 동일한다.
+  - kotlin 에서는 try-catch 가 expression이다.
+ - kotlin에서 모든 예외는 Unchecked Exception이다.
+   
+
