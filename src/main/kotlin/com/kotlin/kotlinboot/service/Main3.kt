@@ -1,5 +1,7 @@
 package com.kotlin.kotlinboot.service
 
+import com.kotlin.kotlinboot.entity.Person
+
 
 fun main() {
     // 코틀린에서는 명시적으로 형변화 해줘야한다.
