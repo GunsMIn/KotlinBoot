@@ -74,5 +74,9 @@
 - 코틀린에서의 패키지는 namespace 관리용이기 때문에 , protected는 의미가 달라졌다.
 - 코틀린에서는 default가 사라지고 , 모듈간의 접근을 통제하는 internal이 새로 생겼다.
 - 생성자에 접근제어자를 붙이 때는 constructor를 명시적으로 써주어야한다.
-  
+
+### Lec 12 . 코틀린에서 object 키워드를 다루는 방법 
+- java의 static 변수와 함수를 만들려면 , kotlin에서는 companion object를 사용한다.
+- companion object도 하나의 객체로 간주되기 때문에 이름을 붙일 수 잇고, 다른 타입을 상속 받을 수도 있다.
+- kotlin에서 싱긅톤 클래스를 만들 때 object 키워드를 사용한다.
 
