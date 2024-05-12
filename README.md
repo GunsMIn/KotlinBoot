@@ -79,4 +79,8 @@
 - java의 static 변수와 함수를 만들려면 , kotlin에서는 companion object를 사용한다.
 - companion object도 하나의 객체로 간주되기 때문에 이름을 붙일 수 잇고, 다른 타입을 상속 받을 수도 있다.
 - kotlin에서 싱긅톤 클래스를 만들 때 object 키워드를 사용한다.
-
+  
+### Lec 13 . 코틀린에서 다양한 클래스를 다루는 방법 
+- Kotlin의 Data class를 사용하면 equals, hashCode, toString을 자동으로 만들어준다.
+- Kotlin의 Enum Class는 Java의 Enum Class와 동일하지만 when 과 함께 사용함으로써 큰 장점을 갖게 된다.
+- Enum Class보다 유연하지만 , 하위 클래스를 제한하는 Sealed Class 역시 when과 함께 주로 사용된다.
