@@ -27,10 +27,6 @@ class PersonForStatic private constructor(
 
 
 
-
-
-
-
 fun main() {
     println(PersonForStatic.Companion.newBaby("김건우"))
 
